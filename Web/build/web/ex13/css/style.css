@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017/02/06, 23:13:04
+    Author     : g031n047
+*/
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    height:100%;
+    background-color: white;
+}
+
+.wrap{
+    background-color: #195547;
+    padding:10px 20px 10px 50px;
+    color:white;
+}
+nav{
+    background-color: #195547;
+    color:white;
+}
+
+nav ul{
+    display:flex;
+    flex-flow: row;
+    margin:6px;
+    padding:6px;
+    list-style-type: none;
+}
+
+nav a{
+    display: block;
+    border-radius: 4px;
+    margin-right:6px;
+    padding: 9px 9px;
+    font-size:18px;
+    color:white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #3fceaf;
+}
+
+li a:visited {
+    color: white;
+}
+
+input{
+    margin:5px;
+}
+
+.wrap2{
+    background-color: #ffffee;
+    padding:20px 30px 50px 50px;
+}
+.title_pos{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.wrap3{
+    height:100%;
+    background-color: #ffffee;
+    padding:20px 30px 0px 50px;
+    
+}
+
+#boxsize{
+    height:20px;
+    font-size: 16px;
+}
+
+td a{
+    color:black;
+    text-decoration: none;
+}
+
+td a:visited{
+    color:black;
+}
+
+.mdl-data-table td div{
+    text-align:left;
+}
+
+.column_pos th{
+    text-align:center;
+    background-color:#195547;
+    color:white;
+}
+
+.column_pos td{
+    text-align:left;
+}
+
+.material-icons{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.demo-card-wide.mdl-card {
+    width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('/Web/ex13/title.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+.table{
+    border-style:solid;
+    width:400px;
+    height:70px;
+    border-color:#195547;
+    background-color: white;
+}
+
+.mdl-textfield__input{
+    margin-left:6px;
+}
+.mdl-textfield__label{
+    margin-left:6px;
+}
+
+.pos{
+    padding:280px;
+    padding-left:300px;
+}
+.back{
+    background-color: #ffffee;
+}
